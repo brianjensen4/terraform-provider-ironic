@@ -1,4 +1,4 @@
-module github.com/openshift-metal3/terraform-provider-ironic
+module github.com/brianjensen4/terraform-provider-ironic
 
 go 1.13
 
@@ -9,8 +9,9 @@ require (
 	github.com/coreos/go-systemd v0.0.0-00010101000000-000000000000 // indirect
 	github.com/coreos/ignition v0.35.0 // indirect
 	github.com/google/go-cmp v0.3.1 // indirect
-	github.com/gophercloud/gophercloud v0.0.0-20190509032623-7892efa714f1
-	github.com/gophercloud/utils v0.0.0-20190313033024-0bcc8e728cb5
+	github.com/gophercloud/gophercloud v0.6.1-0.20191122030953-d8ac278c1c9d
+	github.com/gophercloud/utils v0.0.0-20200508015959-b0167b94122c
+	//github.com/gophercloud/utils v0.0.0-20190313033024-0bcc8e728cb5
 	github.com/hashicorp/go-retryablehttp v0.6.4
 	github.com/hashicorp/go-version v1.2.0
 	github.com/hashicorp/hcl v1.0.0 // indirect
